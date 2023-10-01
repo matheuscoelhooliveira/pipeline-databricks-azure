@@ -1,0 +1,9 @@
+{
+	"name": "databricks-curso-v1",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3dd6ccd6-3bf9-49d9-8fa8-755cabcf5658",
+		"tenantId": "9e3ce0bc-bdde-4333-917a-9e91b7f7a46a"
+	}
+}
