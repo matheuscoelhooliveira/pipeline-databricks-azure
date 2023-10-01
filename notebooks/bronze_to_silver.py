@@ -21,7 +21,7 @@ df_silver = dados_detalhados.drop('caracteristicas','endereco')
 
 # COMMAND ----------
 
-path = '/mnt/dados/Silver'
+path = '/mnt/dados/Silver/dataset_imoveis'
 df_silver.write.format('delta').mode('overwrite').save(path)
 
 # COMMAND ----------
