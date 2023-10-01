@@ -102,7 +102,7 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/trigger1')]",
+			"name": "[concat(parameters('factoryName'), '/trigger2')]",
 			"type": "Microsoft.DataFactory/factories/triggers",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -122,8 +122,8 @@
 					"recurrence": {
 						"frequency": "Hour",
 						"interval": 1,
-						"startTime": "2023-10-01T18:29:00Z",
-						"timeZone": "UTC"
+						"startTime": "2023-10-01T18:30:00",
+						"timeZone": "E. South America Standard Time"
 					}
 				}
 			},
