@@ -52,8 +52,8 @@ display(json_colunas)
 
 # COMMAND ----------
 
-# MAGIC %scala
-# MAGIC import org.apache.spark.sql.functions.col
+from pyspark.sql.functions import col
+
 
 # COMMAND ----------
 
